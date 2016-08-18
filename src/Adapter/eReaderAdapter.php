@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by: leandro
- * Datetime: 18/08/16 15:01
- */
 
-namespace App;
-
+namespace App\Adapter;
 
 class eReaderAdapter implements BookInterface
 {

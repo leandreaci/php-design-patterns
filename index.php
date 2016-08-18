@@ -1,24 +1,10 @@
 <?php
 
-
 require 'vendor/autoload.php';
 
-
-use App\Book;
-use App\BookInterface;
-use App\Kindle;
-use App\eReaderAdapter;
-
-
-class Person
-{
-	
-	public function read(BookInterface $book)
-	{
-		$book->open();
-		$book->turnPage();
-	}
-}
+use App\Adapter\Kindle;
+use App\Adapter\eReaderAdapter;
+use App\Adapter\Person;
 
 (new Person)->read(new eReaderAdapter(new Kindle()));
 

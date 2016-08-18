@@ -3,7 +3,7 @@
  * Created by: leandro
  * Datetime: 18/08/16 14:57
  */
-namespace App;
+namespace App\Adapter;
 
 interface BookInterface
 {

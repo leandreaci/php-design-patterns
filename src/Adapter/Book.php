@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace App\Adapter;
 
 class Book implements BookInterface
 {
